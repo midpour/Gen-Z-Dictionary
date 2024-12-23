@@ -1,0 +1,425 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gen Z Dictionary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #ff6f61;
+            margin-top: 20px;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gen Z Dictionary</h1>
+        <p>Your ultimate guide to understanding Gen Z slang!</p>
+    </header>
+    <div class="container">
+        <input type="text" id="search" placeholder="Search for a term..." onkeyup="searchTerms()">     
+        <div id="dictionary">
+<h2>Af/Asf</h2>
+<p>Used to describe something that is extremely or very much so (e.g., "I'm tired af").</p>
+
+<h2>ASL</h2>
+<p>Stands for "Age, Sex, Location," used in online chats to ask someone's basic information.</p>
+
+<h2>Aura</h2>
+<p>Refers to someone's vibe or energy.</p>
+
+<h2>Based</h2>
+<p>Used to describe someone or something as being authentic or true to themselves, often in a rebellious or confident way.</p>
+
+<h2>Basic</h2>
+<p>Refers to someone who is mainstream or conventional, often used in a slightly derogatory way.</p>
+
+<h2>BDE</h2>
+<p>Stands for "Big Dick Energy," referring to someone with a lot of confidence and self-assurance.</p>
+
+<h2>Bestie</h2>
+<p>A close friend or best friend.</p>
+
+<h2>Bet</h2>
+<p>Used to affirm something or agree with a statement, similar to saying "okay" or "sure."</p>
+
+<h2>BFFR</h2>
+<p>Stands for "Best Friends For Real," used to emphasize a close friendship.</p>
+
+<h2>Big Yikes</h2>
+<p>A phrase used to express discomfort or shock, often when something awkward happens.</p>
+
+<h2>BBL</h2>
+<p>Short for "Brazilian Butt Lift," a type of cosmetic surgery, or "Be Back Later."</p>
+
+<h2>Blud</h2>
+<p>A slang term for "bro" or "friend," often used in UK English.</p>
+
+<h2>Boujee</h2>
+<p>Refers to someone who is high-maintenance or living a luxurious lifestyle.</p>
+
+<h2>Bop</h2>
+<p>A good song or beat, especially in music.</p>
+
+<h2>Brainrot</h2>
+<p>Refers to obsessive thinking about something, often in an unhealthy or overwhelming way.</p>
+
+<h2>Bruh</h2>
+<p>An exclamation of disbelief, frustration, or sometimes just a casual way to address someone.</p>
+
+<h2>Bussin'</h2>
+<p>Used to describe something that is really good, especially food.</p>
+
+<h2>Bussy</h2>
+<p>A slang term used to describe a person's butt, especially in LGBTQ+ communities.</p>
+
+<h2>Cap</h2>
+<p>"Cap" means a lie, and "no cap" means you're being truthful.</p>
+
+<h2>Caught in 4K</h2>
+<p>Used when someone is caught doing something wrong or embarrassing on camera or video.</p>
+
+<h2>Clapback</h2>
+<p>A sharp or witty response to criticism.</p>
+
+<h2>Cook</h2>
+<p>To dominate or outperform someone in a particular area.</p>
+
+<h2>Dab</h2>
+<p>A dance move or gesture involving dropping your head and raising your arm, often used as a celebration.</p>
+
+<h2>Dank</h2>
+<p>Used to describe something high quality, especially memes or marijuana.</p>
+
+<h2>Dead/Ded</h2>
+<p>Used to describe something so funny or shocking that it "kills" you with laughter.</p>
+
+<h2>Delusionship</h2>
+<p>A relationship that exists mainly in someone's imagination, often used humorously.</p>
+
+<h2>Dogs</h2>
+<p>Refers to someone's close friends or homies.</p>
+
+<h2>Drip</h2>
+<p>Refers to someone's sense of style or a particularly fashionable outfit.</p>
+
+<h2>Era</h2>
+<p>Refers to a specific period of time, often used to define a phase or style.</p>
+
+<h2>Face Card</h2>
+<p>Refers to someone's reputation or how they are perceived, often in terms of attractiveness or social status.</p>
+
+<h2>Failure Management</h2>
+<p>Refers to how someone handles their failures or mistakes, often in a self-aware or humorous way.</p>
+
+<h2>Fire</h2>
+<p>Used to describe something really cool or amazing.</p>
+
+<h2>Fit/Fit Check</h2>
+<p>"Fit" refers to someone's outfit, and "fit check" is asking for a review of someone's style.</p>
+
+<h2>Finna</h2>
+<p>A slang term for "fixing to" or "about to," meaning that something is going to happen soon.</p>
+
+<h2>Flop</h2>
+<p>Refers to something that failed or didn't succeed, especially in the context of projects or trends.</p>
+
+<h2>Gagged</h2>
+<p>Used to describe someone who is shocked or overwhelmed, often by something surprising.</p>
+
+<h2>Ghost</h2>
+<p>To suddenly stop responding to someone, especially in a conversation or relationship.</p>
+
+<h2>Girlboss</h2>
+<p>A woman who is empowered, successful, or taking charge, often used sarcastically or ironically.</p>
+
+<h2>Glaze</h2>
+<p>To excessively praise someone, often in a way that is over-the-top or disingenuous.</p>
+
+<h2>Glizzy</h2>
+<p>A slang term for a hot dog.</p>
+
+<h2>Glow-up</h2>
+<p>A transformation or improvement in one's appearance, health, or life.</p>
+
+<h2>GOAT</h2>
+<p>Stands for "Greatest Of All Time," used to describe someone who is the best at what they do.</p>
+
+<h2>Gooning</h2>
+<p>Refers to being overly obsessed or fixated on something, usually in an unhealthy way.</p>
+
+<h2>Gucci</h2>
+<p>Used to describe something as good, cool, or fine.</p>
+
+<h2>Hit Different</h2>
+<p>Something that resonates or feels unique.</p>
+
+<h2>Huzz</h2>
+<p>A cheer or exclamation of excitement or happiness.</p>
+
+<h2>Ick</h2>
+<p>Something that instantly turns you off or makes you uncomfortable.</p>
+
+<h2>IJBOL</h2>
+<p>Stands for "I Just Busted Out Laughing," used to indicate that something is really funny.</p>
+
+<h2>I Oop</h2>
+<p>Used to express surprise or discomfort, often after making a mistake.</p>
+
+<h2>iPad Kid</h2>
+<p>A child who spends a lot of time on a tablet or screen, often stereotyped as disconnected from reality.</p>
+
+<h2>It's Giving</h2>
+<p>Describes the vibe or energy of something, often used as "It's giving [blank]."</p>
+
+<h2>Iykyk</h2>
+<p>Stands for "If You Know, You Know," used to reference inside jokes or experiences.</p>
+
+<h2>Jit</h2>
+<p>A term used to describe a young person, often used in a playful or teasing way.</p>
+
+<h2>Karen</h2>
+<p>Refers to an entitled, demanding person, often a stereotype of middle-aged white women.</p>
+
+<h2>Lit</h2>
+<p>Used to describe something that is exciting, fun, or energetic.</p>
+
+<h2>Looksmaxxing</h2>
+<p>Refers to improving one's appearance, often through extreme measures.</p>
+
+<h2>Living Rent-Free</h2>
+<p>When something or someone occupies your thoughts without your control.</p>
+
+<h2>Main Character</h2>
+<p>Refers to feeling like the star of your own life or situation, often in a playful or confident way.</p>
+
+<h2>Mew</h2>
+<p>A term used to describe a soft or cute sound, often associated with cats.</p>
+
+<h2>Mid</h2>
+<p>Used to describe something that is average or unimpressive.</p>
+
+<h2>Moot/Moots</h2>
+<p>Refers to something that's irrelevant or no longer a point of discussion.</p>
+
+<h2>Mogging</h2>
+<p>Refers to the act of dominating someone, often in a social or physical sense.</p>
+
+<h2>Netflix and Chill</h2>
+<p>A phrase that originally meant watching Netflix, but now often refers to casual sex or relaxation.</p>
+
+<h2>NPC</h2>
+<p>Stands for "Non-Playable Character," used to describe someone who is unoriginal or robotic in their actions.</p>
+
+<h2>Nyaa</h2>
+<p>A Japanese onomatopoeia for a cat's meow, often used in anime or gaming culture.</p>
+
+<h2>No Cap</h2>
+<p>Means you're being truthful or not lying.</p>
+
+<h2>Ohio</h2>
+<p>Used to describe something strange, absurd, or chaotic, often referencing the state of Ohio due to internet memes.</p>
+
+<h2>OK Boomer</h2>
+<p>A phrase used to dismiss or mock older people who are perceived as out of touch with modern culture.</p>
+
+<h2>Oof</h2>
+<p>An expression of discomfort, sympathy, or surprise, often used in response to something unfortunate.</p>
+
+<h2>Oomf</h2>
+<p>Stands for "One Of My Friends," used to refer to someone in a general way.</p>
+
+<h2>Opp</h2>
+<p>Refers to someone who is an enemy or rival.</p>
+
+<h2>Out of Pocket</h2>
+<p>Refers to someone acting inappropriately or outside of expected behavior.</p>
+
+<h2>Owned</h2>
+<p>Used to describe someone who has been defeated or embarrassed, often in an argument or competition.</p>
+
+<h2>Periodt</h2>
+<p>A way of emphasizing the end of a statement, similar to saying "that's final."</p>
+
+<h2>Pick-Me</h2>
+<p>Refers to someone who seeks attention by trying to stand out in a way that might be seen as desperate or trying too hard.</p>
+
+<h2>Pluh</h2>
+<p>Used to describe something that is lackluster or unremarkable.</p>
+
+<h2>Pookie</h2>
+<p>A term of endearment for a close friend or romantic partner.</p>
+
+<h2>Queen</h2>
+<p>Used to refer to a woman who is confident, empowered, and in control.</p>
+
+<h2>Rank</h2>
+<p>Refers to someone's status, reputation, or level of respect.</p>
+
+<h2>Ratio</h2>
+<p>Used to describe the ratio of likes or reactions in social media interactions, often used to indicate when a post gets more negative reactions than positive ones.</p>
+
+<h2>Red Flag</h2>
+<p>Refers to a warning sign or indication that something might be wrong.</p>
+
+<h2>Rizz</h2>
+<p>Refers to someone's charm or ability to attract others.</p>
+
+<h2>Roman Empire</h2>
+<p>A meme about how often men think about the Roman Empire, often in an exaggerated way.</p>
+
+<h2>Salty</h2>
+<p>Describes someone who is bitter or upset.</p>
+
+<h2>Secure the Bag</h2>
+<p>Refers to securing a financial opportunity or success.</p>
+
+<h2>Sheesh</h2>
+<p>An exclamation of amazement or surprise.</p>
+
+<h2>Shook</h2>
+<p>Refers to being shocked or deeply affected by something.</p>
+
+<h2>Sigma</h2>
+<p>Refers to a man who is independent, self-sufficient, and doesn't follow the norms of society, often seen as the opposite of an "alpha."</p>
+
+<h2>Simp</h2>
+<p>Refers to someone who does too much for someone they are romantically interested in, often used in a negative or teasing way.</p>
+
+<h2>Situationship</h2>
+<p>A romantic relationship that is not fully defined or exclusive.</p>
+
+<h2>Skibidi</h2>
+<p>A fun, catchy word or phrase, often associated with viral memes or dances.</p>
+
+<h2>Sksksk</h2>
+<p>A noise or exclamation of excitement or amusement, often associated with VSCO girls.</p>
+
+<h2>Slaps</h2>
+<p>Used to describe something that is excellent, especially music.</p>
+
+<h2>Slay</h2>
+<p>Refers to someone excelling or succeeding in something, often used to describe someone's appearance.</p>
+
+<h2>Snatched</h2>
+<p>Used to describe someone who looks great or has an impressive appearance.</p>
+
+<h2>Stan</h2>
+<p>Refers to someone who is a devoted fan of something or someone.</p>
+
+<h2>Sus</h2>
+<p>Short for "suspicious" or "suspect."</p>
+
+<h2>Sussy Baka</h2>
+<p>A playful phrase combining "suspicious" and "idiot," often used jokingly in gaming communities.</p>
+
+<h2>Skill Issue</h2>
+<p>A phrase used to mock someone's lack of skill, often used in gaming contexts.</p>
+
+<h2>Tea</h2>
+<p>Refers to gossip or juicy information.</p>
+
+<h2>Touch Grass</h2>
+<p>Used to tell someone to get off the internet or take a break from virtual life.</p>
+
+<h2>Tweaking</h2>
+<p>Refers to someone acting irrationally or being overly sensitive, often due to stress or frustration.</p>
+
+<h2>Unalive</h2>
+<p>A more censored way of saying someone is dead, often used to avoid triggering terms.</p>
+
+<h2>Understood the Assignment</h2>
+<p>Used when someone excels at something, often in terms of style or performance.</p>
+
+<h2>Uwu</h2>
+<p>A cute or affectionate expression, often used in anime or internet culture.</p>
+
+<h2>Valid</h2>
+<p>Used to affirm that something is reasonable, cool, or worth respecting.</p>
+
+<h2>Vibe Check</h2>
+<p>Refers to assessing someone's mood or energy in a situation.</p>
+
+<h2>VSCO Girl</h2>
+<p>A term used to describe a particular aesthetic, often involving scrunchies, hydroflasks, and a carefree attitude.</p>
+
+<h2>Wig</h2>
+<p>Used to express shock, excitement, or admiration, often when something is impressive.</p>
+
+<h2>Who Is This Diva?</h2>
+<p>A playful way of referring to someone acting in a dramatic or extravagant way.</p>
+
+<h2>Yap</h2>
+<p>Used to describe talking a lot, often used negatively.</p>
+
+<h2>Yeet</h2>
+<p>An exclamation of excitement or used to describe throwing something.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Gen Z Dictionary. All rights reserved.</p>
+    </footer>
+    <script>
+        function searchTerms() {
+            let input = document.getElementById('search').value.toLowerCase();
+            let dictionary = document.getElementById('dictionary');
+            let terms = dictionary.getElementsByTagName('h2');
+            for (let i = 0; i < terms.length; i++) {
+                let term = terms[i].textContent || terms[i].innerText;
+                if (term.toLowerCase().indexOf(input) > -1) {
+                    terms[i].style.display = "";
+                    terms[i].nextElementSibling.style.display = "";  // Show the description paragraph
+                } else {
+                    terms[i].style.display = "none";
+                    terms[i].nextElementSibling.style.display = "none";  // Hide the description paragraph
+                }
+            }
+        }
+    </script>
+</body>
+</html>
+
+
