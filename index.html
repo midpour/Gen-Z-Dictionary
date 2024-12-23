@@ -43,6 +43,10 @@
             color: white;
             margin-top: 20px;
         }
+        .last-updated {
+            font-size: 0.9em;
+            color: #ddd;
+        }
         input[type="text"] {
             width: 100%;
             padding: 10px;
@@ -61,7 +65,7 @@
     <div class="container">
         <input type="text" id="search" placeholder="Search for a term..." onkeyup="searchTerms()">     
         <div id="dictionary">
-<h2>Af/Asf</h2>
+     <h2>Af/Asf</h2>
 <p>Used to describe something that is extremely or very much so (e.g., "I'm tired af").</p>
 
 <h2>ASL</h2>
@@ -400,6 +404,7 @@
     </div>
     <footer>
         <p>&copy; 2024 Gen Z Dictionary. All rights reserved.</p>
+        <p class="last-updated">Last Updated: December 23, 2024</p>
     </footer>
     <script>
         function searchTerms() {
@@ -407,17 +412,16 @@
             let dictionary = document.getElementById('dictionary');
             let terms = dictionary.getElementsByTagName('h2');
             for (let i = 0; i < terms.length; i++) {
-                let term = terms[i].textContent || terms[i].innerText;
-                if (term.toLowerCase().indexOf(input) > -1) {
-                    terms[i].style.display = "";
-                    terms[i].nextElementSibling.style.display = "";  // Show the description paragraph
+                let term = terms[i];
+                if (term.textContent.toLowerCase().includes(input)) {
+                    term.style.display = "";
+                    term.nextElementSibling.style.display = "";
                 } else {
-                    terms[i].style.display = "none";
-                    terms[i].nextElementSibling.style.display = "none";  // Hide the description paragraph
+                    term.style.display = "none";
+                    term.nextElementSibling.style.display = "none";
                 }
             }
         }
     </script>
 </body>
 </html>
-
