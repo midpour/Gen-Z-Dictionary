@@ -1,11 +1,11 @@
 // Example list of terms for "Word of the Day" feature
 const wordsOfTheDay = [
-  { word: "Af/Asf", definition: "Used to emphasize something, meaning 'as f***'. E.g., 'I'm tired af'." },
+  { word: "Af/Asf", definition: "Used to emphasize something. E.g., 'I'm tired af'." },
   { word: "ASL", definition: "Short for 'Age, Sex, Location'. Often used in online chats." },
   { word: "Aura", definition: "The vibe or energy a person gives off, usually a positive or negative feeling." },
   { word: "Based", definition: "Someone or something that's confident, unbothered, or authentic." },
   { word: "Basic", definition: "Describes someone or something that’s overly mainstream or predictable." },
-  { word: "BDE", definition: "Big Dick Energy. A vibe of confidence without being arrogant." },
+  { word: "BDE", definition: "A vibe of confidence without being arrogant." },
   { word: "Bestie", definition: "A close, trusted friend." },
   { word: "Bet", definition: "Used to agree with something or as a challenge. E.g., 'Bet, I’ll do it.'" },
   { word: "BFFR", definition: "Best Friend For Real. An emphasis on true friendship." },
@@ -17,7 +17,6 @@ const wordsOfTheDay = [
   { word: "Brainrot", definition: "The feeling of being completely consumed by something, often a media obsession." },
   { word: "Bruh", definition: "An exclamation used to express disbelief or frustration." },
   { word: "Bussin'", definition: "Used to describe something that’s really good, especially food." },
-  { word: "Bussy", definition: "A slang term for a man's anus, often used humorously or in gay culture." },
   { word: "Cap", definition: "Lying or exaggerating. 'No cap' means 'no lie'." },
   { word: "Caught in 4K", definition: "Being caught doing something wrong or embarrassing, often recorded." },
   { word: "Clapback", definition: "A quick, clever response, often to an insult." },
