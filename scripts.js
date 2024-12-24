@@ -113,9 +113,6 @@ const wordsOfTheDay = [
   { word: "Yeet", definition: "To throw something with force, often used humorously." }
 ];
 
-    // Add more terms here
-];
-
 // Function to display the "Word of the Day"
 function displayWordOfTheDay() {
     // Get today's date and use it to determine the word to display
