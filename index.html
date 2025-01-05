@@ -55,12 +55,25 @@
             border: 2px solid #ccc;
             border-radius: 4px;
         }
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 .email-link { 
 color: inherit; /* Inherits the text color from the parent */ 
 text-decoration: none; /* Removes the underline */
 } 
 .email-link:hover { 
-text-decoration: underline; /* Optionally add underline on hover */
+text-decoration: underline; /* Adds underline on hover */
 }
 #word-of-the-day {
     max-width: 800px;
@@ -96,7 +109,7 @@ text-decoration: underline; /* Optionally add underline on hover */
     </header>
 <section id="word-of-the-day">
  <h2>Word of the Day</h2>
- <p id="word-display">Loading...</p>
+ <p id="word-display"><div class="loader"></div></p>
  <p id="word-definition">Please wait while we fetch today's word...</p> </section>
     <div class="container">
         <input type="text" id="search" placeholder="Search for a term..." onkeyup="searchTerms()">     
