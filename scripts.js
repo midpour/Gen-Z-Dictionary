@@ -126,9 +126,6 @@ function displayWordOfTheDay() {
 
 // Call the function to display the "Word of the Day"
 displayWordOfTheDay();
-
-// NOTE: Implement a live search feature, idk how i'm gonna do this
-        }
     });
 });
 
