@@ -464,8 +464,8 @@ text-decoration: underline; /* Adds underline on hover */
             for (let i = 0; i < terms.length; i++) {
                 let term = terms[i];
                 if (term.textContent.toLowerCase().includes(input)) {
-                    term.style.display = "";
-                    term.nextElementSibling.style.display = "";
+                    term.style.display = "h2";
+                    term.nextElementSibling.style.display = "p";
                 } else {
                     term.style.display = "none";
                     term.nextElementSibling.style.display = "none";
