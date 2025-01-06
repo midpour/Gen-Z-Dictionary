@@ -128,17 +128,6 @@ function displayWordOfTheDay() {
 displayWordOfTheDay();
 
 // NOTE: Implement a live search feature, idk how i'm gonna do this
-document.getElementById('search-bar').addEventListener('input', function() {
-    const query = this.value.toLowerCase();
-    const slangItems = document.querySelectorAll('.slang-item');
-
-    slangItems.forEach(item => {
-        const term = item.textContent.toLowerCase();
-        
-        if (term.includes(query)) {
-            item.style.display = 'block'; // Show if search query matches (i hope)
-        } else {
-            item.style.display = 'none'; // Hide if search query does not match (i hope)
         }
     });
 });
