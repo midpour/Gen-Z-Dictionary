@@ -1,4 +1,4 @@
-// Example list of terms for "Word of the Day" feature
+// List of terms for "Word of the Day" feature
 const wordsOfTheDay = [
   { word: "Af/Asf", definition: "Used to emphasize something. E.g., 'I'm tired af'." },
   { word: "ASL", definition: "Short for 'Age, Sex, Location'. Often used in online chats." },
@@ -127,7 +127,7 @@ function displayWordOfTheDay() {
 // Call the function to display the "Word of the Day"
 displayWordOfTheDay();
 
-// Optional: Implement a live search feature
+// NOTE: Implement a live search feature, idk how i'm gonna do this
 document.getElementById('search-bar').addEventListener('input', function() {
     const query = this.value.toLowerCase();
     const slangItems = document.querySelectorAll('.slang-item');
@@ -136,9 +136,9 @@ document.getElementById('search-bar').addEventListener('input', function() {
         const term = item.textContent.toLowerCase();
         
         if (term.includes(query)) {
-            item.style.display = 'block'; // Show if search query matches
+            item.style.display = 'block'; // Show if search query matches (i hope)
         } else {
-            item.style.display = 'none'; // Hide if search query does not match
+            item.style.display = 'none'; // Hide if search query does not match (i hope)
         }
     });
 });
