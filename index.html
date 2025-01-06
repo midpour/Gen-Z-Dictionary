@@ -464,8 +464,8 @@ A cute or affectionate expression, often used in anime or internet culture.</p>
             for (let i = 0; i < terms.length; i++) {
                 let term = terms[i];
                 if (term.textContent.toLowerCase().includes(input)) {
-                    term.style.display = "h2";
-                    term.nextElementSibling.style.display = "p";
+                    term.style.display = "";
+                    term.nextElementSibling.style.display = "";
                 } else {
                     term.style.display = "none";
                     term.nextElementSibling.style.display = "none";
