@@ -3,74 +3,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        header {
-            background-color: #ff6f61;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        h2 {
-            color: #ff6f61;
-            margin-top: 20px;
-        }
-        p {
-            font-size: 1.1em;
-            line-height: 1.6;
-        }
-        .pronounce {
-            font-size: 1.1em;
-            line-height: 0.6;
-            color: gray
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: white;
-            margin-top: 20px;
-        }
-        .last-updated {
-            font-size: 0.9em;
-            color: #ddd;
-        }
-        input[type="text"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 20px;
-            font-size: 1.1em;
-            border: 2px solid #ccc;
-            border-radius: 4px;
-        }
-        .label {
-            color: white;
-            padding: 5px;
-            border-radius: 5px;
-            font-family: Arial, sans-serif;
-            font-size: 0.8em;
-        }
-.dead {background-color: #f44336;}
-.rare {background-color: #ff9800;}
-.meme {background-color: #04AA6D;}
-.loader { /* just in case we need it later */
+       body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+header {
+  background-color: #ff6f61;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+h2 {
+  color: #ff6f61;
+  margin-top: 20px;
+}
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+.pronounce {
+  font-size: 1.1em;
+  line-height: 0.6;
+  color: gray;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+}
+.last-updated {
+  font-size: 0.9em;
+  color: #ddd;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+.label {
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 0.8em;
+}
+.dead {
+  background-color: #f44336;
+}
+.rare {
+  background-color: #ff9800;
+}
+.meme {
+  background-color: #04aa6d;
+}
+.loader {
+  /* just in case we need it later */
   border: 16px solid #f3f3f3; /* Light grey */
   border-top: 16px solid #3498db; /* Blue */
   border-radius: 50%;
@@ -80,40 +87,44 @@
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-.email-link { 
-color: inherit; /* Inherits the text color from the parent */ 
-text-decoration: none; /* Removes the underline */
-} 
-.email-link:hover { 
-text-decoration: underline; /* Adds underline on hover */
+.email-link {
+  color: inherit; /* Inherits the text color from the parent */
+  text-decoration: none; /* Removes the underline */
+}
+.email-link:hover {
+  text-decoration: underline; /* Adds underline on hover */
 }
 #word-of-the-day {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #word-of-the-day h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+  font-size: 1.5em;
+  margin-bottom: 10px;
 }
 
 #word-display {
-    font-size: 2em;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #ff6f61;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ff6f61;
 }
 
 #word-definition {
-    font-size: 1.1em;
-    font-style: italic;
+  font-size: 1.1em;
+  font-style: italic;
 }
     </style>
 </head>
